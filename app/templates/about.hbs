@@ -5,19 +5,23 @@
     <td><h2>Last Name</h2></td>
     <td><h2>Email</h2></td>
   </tr>
-  <tr>
-    <td>{{model.title}}</td>
-    <td>{{model.body}}</td>		
-    <td>{{model.author}}</td>
+
+
+   <tr>
+    <td>{{model.id}}</td>
+    <td>{{model.fname}}</td>    
+    <td>{{model.lname}}</td>
+    <td>{{model.email}}</td>
   </tr>
+
+
+ </table>
+
+
+
+<div>
+   <button>{{#link-to 'adding' class="navbar-brand"}} Add New Employee {{/link-to}} </button> 
+</div>
+
  
-
-</table>
-
-
-
-
-
-
-{{#link-to 'adding' class="navbar-brand"}} <button>Add New Employee </button> {{/link-to}}  
 {{outlet}}
