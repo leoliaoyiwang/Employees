@@ -1,0 +1,22 @@
+{
+  "employee": [
+    {
+      "id": "1",
+      "fname": "John",
+      "lname": "Smith",
+      "email": "john.smith@asdf.com",
+      "tel": "555-555-5555",
+      "dept": "sales",
+    }
+
+     {
+      "id": "2",
+      "fname": "Jane",
+      "lname": "Doe",
+      "email": "jane.doe@asdf.com",
+      "tel": "555-555-5555",
+      "dept": "sales",
+    }
+
+  ]
+}
